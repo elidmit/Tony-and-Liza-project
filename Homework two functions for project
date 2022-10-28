@@ -28,3 +28,10 @@ displayDone();
 
 
 
+
+function helloNewUser(gretting, name='User'){
+  console.log(`${gretting}, ${name}`)
+}
+
+helloNewUser('welcome to our site');
+helloNewUser('welcome to our site', 'Lisa');
