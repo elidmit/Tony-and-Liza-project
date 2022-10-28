@@ -1,0 +1,30 @@
+function turnOnVideo(){
+  console.log("Video starts");
+}
+
+// calling the function
+turnOnVideo();
+
+
+
+
+function sessionIsDone() {
+console.log('Thank you for watching');
+}
+sessionIsDone();
+
+
+
+
+function displayDone() {
+console.log('Thank you for watching');
+}
+
+// timer value is in milliseconds
+setTimeout(displayDone, 15000);
+
+displayDone();
+
+
+
+
