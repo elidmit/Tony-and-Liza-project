@@ -35,3 +35,17 @@ function helloNewUser(gretting, name='User'){
 
 helloNewUser('welcome to our site');
 helloNewUser('welcome to our site', 'Lisa');
+
+
+
+
+
+const words = [
+  'Film',
+  'Start',
+  '3',
+  '2',
+  '1'
+];
+
+console.log(words.map(words => words.length));
